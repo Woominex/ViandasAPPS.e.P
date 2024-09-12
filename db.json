@@ -1,0 +1,237 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "admin",
+      "email": "admin@example.com",
+      "rol": "Administrador",
+      "contraseña": "12345"
+    },
+    {
+      "id": "2",
+      "nombre": "empleadoi2T",
+      "email": "empleado@example.com",
+      "rol": "Empleado",
+      "contraseña": "67890"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "1",
+      "usuarioId": 2,
+      "semana": "Semana 1",
+      "platos": {
+        "lunes": "Empanadas",
+        "martes": "Tarta de verduras",
+        "miércoles": "Milanesa",
+        "jueves": "Ensalada César",
+        "viernes": "Pizza",
+        "sábado": "Pasta",
+        "domingo": "Asado"
+      }
+    },
+    {
+      "id": "2",
+      "usuarioId": 2,
+      "semana": "Semana 2",
+      "platos": {
+        "lunes": "Sándwich de pollo",
+        "martes": "Lasaña",
+        "miércoles": "Arroz con pollo",
+        "jueves": "Hamburguesa",
+        "viernes": "Tacos",
+        "sábado": "Sushi",
+        "domingo": "Paella"
+      }
+    },
+    {
+      "id": "eb49",
+      "semana": "Semana X",
+      "platos": {
+        "lunes": "Milanesa",
+        "martes": "Tacos",
+        "miercoles": "Tacos",
+        "jueves": "Arroz con pollo",
+        "viernes": "Arroz con pollo"
+      }
+    },
+    {
+      "id": "320b",
+      "semana": "Semana X",
+      "platos": {
+        "lunes": "Milanesa",
+        "martes": "Pizza",
+        "miercoles": "Asado",
+        "jueves": "Empanadas",
+        "viernes": "Paella"
+      }
+    },
+    {
+      "id": "30da",
+      "semana": "Semana 3",
+      "platos": {
+        "lunes": "Empanadas",
+        "martes": "Tarta de verduras",
+        "miercoles": "Ensalada César",
+        "jueves": "Sándwich de pollo",
+        "viernes": "Ensalada César"
+      }
+    },
+    {
+      "id": "b449",
+      "semana": "Semana 3",
+      "platos": {
+        "lunes": "Tacos",
+        "martes": "Pasta",
+        "miercoles": "Sándwich de pollo",
+        "jueves": "Hamburguesa",
+        "viernes": "Asado"
+      }
+    }
+  ],
+  "menus": [
+    {
+      "id": "1",
+      "nombre": "Empanadas",
+      "semanas": [
+        "Semana 1",
+        "Semana 2"
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Tarta de verduras",
+      "semanas": [
+        "Semana 1"
+      ]
+    },
+    {
+      "id": "3",
+      "nombre": "Milanesa",
+      "semanas": [
+        "Semana 1"
+      ]
+    },
+    {
+      "id": "4",
+      "nombre": "Ensalada César",
+      "semanas": [
+        "Semana 1"
+      ]
+    },
+    {
+      "id": "5",
+      "nombre": "Pizza",
+      "semanas": [
+        "Semana 1"
+      ]
+    },
+    {
+      "id": "6",
+      "nombre": "Pasta",
+      "semanas": [
+        "Semana 1"
+      ]
+    },
+    {
+      "id": "7",
+      "nombre": "Asado",
+      "semanas": [
+        "Semana 1"
+      ]
+    },
+    {
+      "id": "8",
+      "nombre": "Sándwich de pollo",
+      "semanas": [
+        "Semana 2"
+      ]
+    },
+    {
+      "id": "9",
+      "nombre": "Lasaña",
+      "semanas": [
+        "Semana 2"
+      ]
+    },
+    {
+      "id": "10",
+      "nombre": "Arroz con pollo",
+      "semanas": [
+        "Semana 2"
+      ]
+    },
+    {
+      "id": "11",
+      "nombre": "Hamburguesa",
+      "semanas": [
+        "Semana 2"
+      ]
+    },
+    {
+      "id": "12",
+      "nombre": "Tacos",
+      "semanas": [
+        "Semana 2"
+      ]
+    },
+    {
+      "id": "13",
+      "nombre": "Sushi",
+      "semanas": [
+        "Semana 2"
+      ]
+    },
+    {
+      "id": "14",
+      "nombre": "Paella",
+      "semanas": [
+        "Semana 2"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "menu": "Pollo con Ensalada",
+      "quantity": 2,
+      "date": "2024-09-20"
+    },
+    {
+      "id": "2",
+      "menu": "Pasta con Salsa",
+      "quantity": 1,
+      "date": "2024-09-21"
+    },
+    {
+      "id": "8bb2",
+      "menu": "Pizza",
+      "quantity": 1,
+      "date": "2024-09-10"
+    },
+    {
+      "id": "d2ee",
+      "menu": "Asado",
+      "quantity": 1,
+      "date": "2024-09-27"
+    },
+    {
+      "id": "01fe",
+      "menu": "Pasta",
+      "quantity": 1,
+      "date": "2024-09-22"
+    },
+    {
+      "id": "fa57",
+      "menu": "Milanesa",
+      "quantity": "2",
+      "date": "2024-10-16"
+    },
+    {
+      "id": "6cdd",
+      "menu": "Arroz con pollo",
+      "quantity": 1,
+      "date": "2024-09-23"
+    }
+  ]
+}
